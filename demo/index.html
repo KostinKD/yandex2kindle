@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Попробуйте Yandex2Kindle без установки: библиотека, чтение, полки и цитаты. Бесплатное приложение с открытым кодом для вашей личной библиотеки.">
+  <meta name="theme-color" content="#a64a31">
+  <title>Демо · Yandex2Kindle</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/app.css">
+  <link rel="stylesheet" href="./assets/workspace.css">
+  <link rel="stylesheet" href="./demo.css">
+  <script src="./demo.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <div class="demo-banner"><span><strong>Демо</strong> · Тестовая библиотека. Изменения остаются в этом браузере.</span><a href="https://github.com/KostinKD/yandex2kindle/releases/latest">Скачать приложение ↗</a></div>
+  <header class="topbar">
+    <a class="brand" href="#library"><span class="brand-mark" aria-hidden="true">y<span>2</span>k.</span><span class="brand-name">yandex2kindle<span class="brand-caption">Личная библиотека · демо</span></span></a>
+    <div class="header-actions"><label class="theme-control"><span>Тема</span><select id="theme-select" aria-label="Цветовая тема"><option value="system">Как в системе</option><option value="light">Светлая</option><option value="dark">Тёмная</option></select></label><button class="button secondary menu-toggle" type="button" aria-controls="app-navigation" aria-expanded="false" id="menu-toggle">Меню</button></div>
+  </header>
+  <div class="app-shell">
+    <nav class="app-navigation" id="app-navigation" aria-label="Основная навигация">
+      <span class="nav-caption">Каталог и чтение</span>
+      <a href="#dashboard" data-page="dashboard"><span class="nav-index">01</span>Моё чтение</a>
+      <a href="#library" data-page="library"><span class="nav-index">02</span>Библиотека</a>
+      <a href="#wishlist" data-page="wishlist"><span class="nav-index">03</span>Список чтения</a>
+      <a href="#highlights" data-page="highlights"><span class="nav-index">04</span>Цитаты</a>
+      <a href="#devices" data-page="devices"><span class="nav-index">05</span>Устройства</a>
+      <a href="#install" data-page="install"><span class="nav-index">06</span>Установить себе</a>
+      <div class="nav-footer"><span>Ваши книги.<br>На вашем сервере.</span><button class="demo-reset" type="button" id="reset-demo">Сбросить демо</button><a class="github-link" href="https://github.com/KostinKD/yandex2kindle" target="_blank" rel="noopener noreferrer">GitHub проекта ↗</a><a class="boosty-badge" href="https://boosty.to/kostin_kd/donate" target="_blank" rel="noopener noreferrer"><span class="boosty-symbol" aria-hidden="true">♥</span><span>Поддержать на <strong>Boosty</strong></span><span aria-hidden="true">↗</span></a></div>
+    </nav>
+    <main id="main" class="container" tabindex="-1"><p>Загружаем демонстрационную библиотеку…</p><noscript><p>Для интерактивного демо включите JavaScript. <a href="https://github.com/KostinKD/yandex2kindle/releases/latest">Скачать приложение</a>.</p></noscript></main>
+  </div>
+  <footer class="footer"><span>yandex2kindle · v1.0.0 · статическое демо</span><span>Оригинальные демонстрационные тексты · Apache-2.0</span></footer>
+  <div id="notification" class="notification" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
