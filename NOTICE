@@ -1,0 +1,14 @@
+Yandex2Kindle
+Copyright 2026 KostinKD
+https://github.com/KostinKD/yandex2kindle
+
+Original Yandex2Kindle code is licensed under the Apache License, Version 2.0.
+See LICENSE. Third-party components retain their respective licenses.
+
+This product includes Foliate-js, Copyright (c) 2022 John Factotum,
+licensed under the MIT License. See app/static/foliate/LICENSE.
+Upstream: https://github.com/johnfactotum/foliate-js
+The bundled copy contains local modifications.
+
+This notice is not an exhaustive dependency inventory.
+See docs/legal.md for outstanding third-party licensing review items.

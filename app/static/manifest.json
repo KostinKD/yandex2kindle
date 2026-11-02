@@ -1,0 +1,19 @@
+{
+  "name": "Yandex2Kindle",
+  "short_name": "Y2K",
+  "description": "Персональная библиотека, ридер и хаб доставки книг на Kindle",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf8f5",
+  "theme_color": "#a64a31",
+  "icons": [
+    {
+      "src": "/static/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

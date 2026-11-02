@@ -1,0 +1,10 @@
+.terminal-loader{padding:32px 0;color:var(--ink,black)}
+.terminal-command{display:flex;align-items:baseline;gap:8px;margin:0 0 12px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:15px}
+.terminal-command>span:first-child{color:var(--accent,currentColor)}
+.terminal-dots{display:inline-flex;gap:2px;margin-left:-8px}
+.terminal-dots span{animation:terminal-pulse 1.2s infinite;opacity:.25}
+.terminal-dots span:nth-child(2){animation-delay:.2s}.terminal-dots span:nth-child(3){animation-delay:.4s}
+.terminal-cursor{animation:terminal-blink 1s steps(2,start) infinite;color:var(--accent,currentColor)}
+@keyframes terminal-pulse{50%{opacity:1}}
+@keyframes terminal-blink{to{visibility:hidden}}
+@media(prefers-reduced-motion:reduce){.terminal-dots span,.terminal-cursor{animation:none;opacity:1}}
